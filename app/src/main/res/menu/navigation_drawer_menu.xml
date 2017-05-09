@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item  android:title="Medicion" >
+            <menu>
+        <item
+            android:id="@+id/btn_linea"
+            android:icon="@mipmap/ic_straighten_black_24dp"
+            android:title="@string/Linea" />
+        <item
+            android:id="@+id/circulos"
+            android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"
+            android:title="@string/Circulos" />
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@mipmap/ic_dialpad_black_24dp"
+            android:title="@string/Calculadora" />
+            </menu>
+        </item>
+        <item  android:title="Informacion" >
+            <menu>
+
+        <item
+            android:id="@+id/menu_como"
+            android:icon="@mipmap/ic_info_black_24dp"
+            android:title="@string/APP" />
+        <item
+            android:id="@+id/menu_info"
+            android:icon="@mipmap/ic_help_black_24dp"
+            android:title="@string/SAG"
+            />
+            </menu>
+        </item>
+
+    </group>
+
+    <item  android:title="Opciones" >
+        <menu >
+
+            <item
+
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_comment_question_outline_black_24dp"
+                android:title="About"
+                />
+
+
+
+        </menu>
+    </item>
+
+</menu>
+ 

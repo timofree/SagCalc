@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Sagcalc</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+
+
+    //String Calculadora
+    <string name="Calc1"> Distancia horquilla (mm) </string>
+    <string name="Calc2"> Distancia restante :</string>
+    <string name="Enduro"> Enduro</string>
+    <string name="xc"> XC</string>
+    <string name="am"> AM</string>
+    <string name="dh"> DH</string>
+
+
+
+
+    //String de pagina de portada
+
+    <string name="Medir">Medir</string>
+    <string name="SAG">Info SAG</string>
+    <string name="APP">Info App</string>
+    <string name="Calculadora">Calculadora</string>
+    <string name="Linea">Línea</string>
+    <string name="Circulos">Círculos</string>
+
+
+
+
+
+
+
+    //INFORMACION DEL SAG
+    <string name="Texto1">Muchos ciclistas nos preguntan por el SAG correcto, o simplemente no lo tienen en cuenta a la hora de ajustar sus suspensiones. El SAG es uno de los ajustes básicos de la suspensiones de las bicicletas de montaña. Es frecuente también que se confunda con la precarga o las regulaciones de compresión.
+
+            En primer lugar, definiremos el SAG:</string>
+    <string name="Texto2">El SAG determina la cantidad de recorrido que puede tener la suspensión para que cuando pasamos un badén o bache, la suspensión se extienda y mantenga en contacto la rueda con el terreno. Otra función importante del SAG es adaptar la geometría de la bicicleta al reparto de peso producidos por la pendiente, las frenadas o las aceleraciones. Por ejemplo, un nivel de SAG muy bajo en la suspensión trasera, originará que en una bajada, debido a que se transfiere mayor peso a la rueda delantera, la rueda trasera pierda contacto con el terreno disminuyendo el agarre y favoreciendo el volcado.
+
+            Otro concepto bàsico que necesitamos definir es la precarga.</string>
+    <string name="Texto3">En condiciones estáticas, es decir; en parado, el ajuste que se emplea para regular el SAG es la precarga. En suspensiones cuyo elemento elástico es un muelle, esto se realiza comprimiendo en mayor o menor medida el muelle mediante elementos fijos como son arandelas o suplementos rígidos de distintos tamaños. En el caso de utilizar sistemas neumáticos, la precarga se ajusta principalmente con la presión del aire.
+
+            A mayor precarga, reducimos el SAG y con menor precarga, lo contrario. Dependiendo del sistema elástico de la suspensión, la cantidad de precarga que se puede aplicar, variará. En los sistemas con muelles helicoidales, una precarga excesiva provocará que se necesite una fuerza inicial mayor para empezar a comprimir la suspensión, lo que se traduce en una pérdida de sensibilidad de la misma para la absorción de pequeñas irregularidades. Por el contrario, una precarga muy baja o inexistente, puede provocar que el muelle debido a su inercia cuando se comprime deje de estar apoyado en sus extremos, generando vibraciones y/o ruido. En los sistemas neumáticos, siempre habrá una precarga mínima al tener que introducir aire a presión para mantener extendida la suspensión, despareciendo este problema. No obstante, dependerá de los volúmenes, y de la presiones de las cámaras positivas y negativas del pistón neumático, el comportamiento de la suspensión al variar la presión del aire, además del ajuste del SAG.
+
+            En el caso de suspensiones con muelles, podemos alcanzar el nivel deseado con distinta dureza (o mejor dicho rigidez), con distinta precarga. Sin embargo, como se puede ver en el gráfico, la fuerza del muelle cuando se comprime varía de un muelle a otro. Esto puede provocar que por ejemplo, con un muelle más “blando” sea necesario precargarlo más que otro más “duro” para el mismo nivel de SAG, pero con el muelle más “blando”, a pesar de estar más precargado y tener menor sensibilidad, puede hacer tope con mayor facilidad.
+
+            </string>
+    <string name="Texto4">En los sistemas neumáticos, la influencia de la precarga en el ajuste del SAG será la misma; mayor presión de aire menor SAG y viceversa. El aire, al ser un gas se puede comprimir al reducir su volumen, produciéndose un incremento de la presión. Al aumentar el volumen de la cámara se produce el efecto contrario. Mientras la suspensión se comprime, la cámara positiva reduce su volumen y aumenta la presión, pero en la cámara negativa aumenta el volumen y por tanto disminuye la presión. Es por ello que la relación entre la fuerza resultante con el hundimiento en este tipo de suspensiones, dependerá del las presiones iniciales (precarga) y de la variación de los volúmenes de las cámaras positivas y negativas.</string>
+    <string name="Texto5">La mayoría de suspensiones emplean el aire a presión como elemento elástico, y las marcas de suspensiones y bicicletas aportan tablas informativas, relacionando la presión del aire con el peso del ciclista.
+
+                            La mejor forma de ajustar el SAG es medirlo directamente ya que el nivel de SAG depende de diversas variables, y no únicamente del peso; como son la geometría de la bicicleta, cinemática del sistema de suspensión trasero, modalidad o la pendiente media del terreno. Los  manómetros de las bombas pueden ser poco fiables para la lectura de la presión.
+
+                            Para medir el nivel de SAG lo haremos montados en la bicicleta en la posición normal de conducción, y con el equipaje habitual. Primero tomaremos una medida de referencia con la suspensión completamente extendida, y posteriormente montados en ella. El hundimiento alcanzado en relación al recorrido total de la suspensión, es el nivel de SAG. A mayor presión reducimos el SAG, y reduciendo la presión lo aumentamos.
+
+                            ¿Cual es el SAG ideal? A nivel orientativo podéis ver la tabla:</string>
+    <string name="imagenportada">imagenportada</string>
+    <string name="imagenportada2">imagenportada</string>
+    <string name="slope1">slope1</string>
+    <string name="slopes2">slopes2</string>
+    <string name="slopes3">slopes3</string>
+    <string name="slopes4">slopes4</string>
+
+
+    // Strings de Info APP
+
+    // LINEA
+    <string name="app1">
+Cuando seleccionamos la opción de medir el SAG mediante, la herramienta de línea nos aparecerá una pantalla como la siguiente.</string>
+    <string name="app2">Esta pantalla siempre se encontrará de manera horizontal, ya que el marco de la cámara tiene mayor tamaño que de forma vertical.
+
+En esta pantalla aparecen muchos botones, pero antes que nada deberemos fijarnos en la línea que se dibuja justo en el medio de la pantalla, es una línea vertical , con una línea más pequeña en horizontal colocada justo en el medio de la mencionada línea vertical.
+</string>
+    <string name="app3">El cruce de estas dos línea lo deberemos colocar justo en el medio de la botella de la horquilla que vayamos a medir.
+
+
+Una vez alineada la línea con la botella del amortiguador, jugaremos con los botones (+,-) para ajustar la línea verde ( horizontal) al ancho de la botella. </string>
+    <string name="app4">Esto nos servirá para dos cosas una sería poder medir el el recorrido existente en nuestra horquilla, y otra muy importante para la medición, es que el ancho de fijado nos servirá desde ese momento de referencia para mantener la distancia entre la horquilla y el smartphone que estamos usando, ya que si no se respeta esta distancia la medición no se efectuará como toca ya que cambian todas las medidas al alejarnos o acercarnos entre una medición y otra.
+
+
+Otro parámetro a modificar antes de empezar la medición es la tolerancia con el color seleccionado.
+Esta función se basa en la selección del color de la botella , es decir toma como referencia el punto medio de la línea vertical y va comparando pixel a pixel si el color es igual o parecido al del punto medio tanto hacia arriba como hacia abajo, es aquí cuando entra la tolerancia, es decir que rango de colores aceptamos a partir del punto medio.
+
+Este parámetro lo podemos modificar mediante una seekbar (barra de ajuste) colocada justo en la parte inferior/central.
+</string>
+    <string name="app5">Lo deberemos ajustar para que la línea naranja que se dibuja sobre la línea vertical  pille la botella por completo pero sin que se pase.
+Este paso es muy importante ya que la siguiente medición tomará esta misma tolerancia para la medición.
+
+Una vez hechas estas configuraciones podremos empezar a medir el SAG.
+
+Para la primera medición utilizaremos el botón colocado en la parte inferior izquierda,
+cuando se pulse este botón aparecerá una línea fija de color naranja con la misma longitud que tenía en ese momento la línea.
+
+Deberemos observar que efectivamente la línea naranja ocupa toda la botella, de no será así podremos reiniciar la medición mediante el botón de reset colocado en la parte superior izquierda.</string>
+<string name="app6">Una vez colocada esta línea ya tendremos hecha la medición en reposo, es decir sin que la horquilla esté afectada por ningún peso excepto el peso de la misma bicicleta.
+El siguiente paso será, que el usuario monte encima de la bicicleta, el usuario deberá ser el mismo que vaya a utilizar la bicicleta posteriormente, ya que el SAG es proporcional al peso del ciclista.
+</string>
+    <string name="app7">Al realizar este proceso es cuando no nos podemos mover de nuestras posiciones iniciales , es aquí cuando cobra importancia la línea verde horizontal, ya que como en el primer paso la habíamos ajustado al ancho de la botella, ahora debería ocurrir lo mismo, osea que la línea verde marcada abarque nuevamente todo el ancho de la botella, de esta manera estaremos respetando la misma distancia que en la medición anterior.
+
+El proceso de medición se efectuará igual que en la primera medición, en este caso el botón de fijar la segunda línea se encuentra en el parte inferior derecha de la pantalla una vez fijada correctamente aparecerá en la parte superior el tanto por ciento de hundimiento que ha efectuado la horquilla entre una medición y otra.
+
+</string>
+    <string name="app8">Este método de medición tiene otra herramienta que el resto no tiene. Puede medir el recorrido de nuestra horquilla.Para ello tendremos que fijar las dos líneas que aparecen al principio de la medición :
+
+La línea verde (horizontal) es la que tenemos que ajustar al ancho de nuestra horquilla, como habíamos hecho con anterioridad en las mediciones.
+</string>
+    <string name="app9">También jugaremos con el barra de ajuste colocado en la parte inferior para que la línea vertical ( naranja) se ajuste a la barra de la horquilla.
+
+Una vez colocadas y ajustadas estas dos líneas deberemos introducir el diámetro de nuestras botellas, en el campo que se encuentra en la parte superior de la ventana marcada como (Ancho(mm)) .
+</string>
+    <string name="app10">Una vez fijadas la líneas y introducido el ancho de las botellas podremos realizar la medición mediante el botón situado en la parte superior derecha con el logo de una regla.
+
+</string>
+
+    //CIRCULOS
+    <string name="cir1"> Esta  ventana se compone de un frame central donde se aloja la cámara del dispositivo.
+
+En esta ocasión la cámara buscará desde el momento que se accede a la medición formas de círculos.  Estos círculos deben estar situados previamente en nuestra horquilla , uno en la parte del puente y otro donde empieza la botella de la horquilla.
+</string>
+    <string name="cir2">Una vez la aplicación haya detectado los dos círculos, podremos pulsar el botón colocado en la parte inferior izquierda marcado con un 1 , esta primera medición se tomará sin el peso del ciclista encima.
+
+</string>
+    <string name="cir3">Una vez pulsado el botón se dibujaran estos círculos de color blanco permanentemente en la pantalla .
+</string>
+    <string name="cir4">Siguientemente y con el ciclista ya encima de la bicicleta, tomaremos la segunda medida, esta vez pulsamos el boton que esta en la parte inferior derecha marcado con un 2. Para esta medición intentaremos cuadrar los dos círculos de una de las partes ya sea la de arriba como la de abajo, para así tener una mayor precisión en la medición.
+</string>
+    <string name="cir5"> Una vez hechas las dos mediciones nos aparecerá en la parte superior de la ventana el resultado del porcentaje que se hundido.
+</string>
+    <string name="cir6">En todo momento tendremos situado a la parte superior izquierda el botón de “reset” con el cual podremos reiniciar la medición.
+</string>
+
+
+    //CALCULADORA
+    <string name="cal1">Utilizar la calculadora sera muy facil , solo tendremos que introducir dos parametros, uno sera la distancia de nuestra horquilla y la otra serà la modalidad que vamos a practicar, una vez introducidos estos dos datos le daremos al boton para la distancia que deberia permanecer fuera de nuestra botellas.</string>
+    <string name="informacion_sobre_sagcalc">Información sobre SagCalc</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sagcalc</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    //Strings de informacion sobre la aplicacion.
+
+        <string name="infogeneral">El SAG de la suspensiÃ³n. Â¿QuÃ© es y cÃ³mo ajustarlo correctamente?
+        ELÂ SAGÂ oÂ tambiÃ©nÂ llamadoÂ prehundimientoÂ deÂ unaÂ suspensiÃ³n,Â yaÂ sea horquillaÂ oÂ amortiguador,Â noÂ esÂ niÂ mÃ¡sÂ niÂ menosÂ queÂ unÂ anglicismo utilizadoÂ 
+        enÂ elÂ mundoÂ delÂ MountainÂ BikeÂ paraÂ denominarÂ al hundimientoÂ queÂ sufreÂ unaÂ suspensiÃ³nÂ debidoÂ alÂ pesoÂ corporalÂ del ciclistaÂ queÂ laÂ utiliza.
+        Â DichoÂ deÂ otraÂ forma,Â elÂ SAGÂ esÂ elÂ recorridoÂ que tieneÂ unaÂ suspensiÃ³nÂ cuandoÂ elÂ pesoÂ delÂ ciclistaÂ recaeÂ sobreÂ ella.ElÂ prehundimientoÂ oÂ SAGÂ deÂ unaÂ suspensiÃ³n
+        Â tieneÂ unÂ papelÂ muy importanteÂ enÂ elÂ correctoÂ funcionamientoÂ deÂ laÂ horquillaÂ o amortiguador
+        Â (oÂ ambos)Â deÂ unaÂ bicicleta.Â SuponeÂ unÂ recorrido negativoÂ queÂ jugarÃ¡Â aÂ nuestroÂ favorÂ absorbiendoÂ lasÂ irregularidades delÂ terreno,Â 
+        deÂ maneraÂ queÂ hagaÂ rebotarÂ laÂ barraÂ oÂ barrasÂ deÂ la suspensiÃ³nÂ manteniendoÂ lasÂ ruedasÂ pegadasÂ aÂ laÂ superficieÂ delÂ terreno porÂ elÂ queÂ nosÂ movemos,Â minimizandoÂ laÂ percepciÃ³nÂ deÂ bachesÂ y demÃ¡sÂ obstÃ¡culosÂ delÂ suelo.
+        AunqueÂ tambiÃ©nÂ intervienenÂ mÃ¡sÂ factoresÂ comoÂ laÂ inercia,Â la velocidadÂ oÂ losÂ distintosÂ tiposÂ deÂ suspensionesÂ delÂ mercadoÂ aÂ laÂ hora deÂ analizarÂ elÂ comportamientoÂ deÂ unÂ amortiguadorÂ uÂ horquilla, pongamosÂ unÂ ejemplo
+        Â muyÂ simpleÂ deÂ entender.Â ImaginemosÂ que vamosÂ rodandoÂ conÂ nuestraÂ bicicletaÂ yÂ pasamosÂ sobreÂ unÂ enorme agujeroÂ enÂ elÂ sueloÍ¾Â sinÂ SAG,Â todaÂ laÂ bicicletaÂ (nosotrosÂ incluidos) caerÃ¡Â dentroÂ delÂ agujero,Â mientrasÂ queÂ conÂ SAGÂ solamenteÂ caerÃ¡ laÂ ruedaÂ mientrasÂ 
+        queÂ elÂ restoÂ deÂ laÂ bicicletaÂ continuarÃ¡Â alÂ mismo nivel,Â conÂ loÂ queÂ laÂ suspensiÃ³nÂ habrÃ¡Â funcionadoÂ correctamente
+        </string>
+    <string name="como">Colocarse a unos 20-30cm entre la camara del movil y nuestra horquilla.</string>
+    <string name="como2">Pulsar para ver si estamos seleccionando bien la horquilla.</string>
+
+
+
+    //Strings de informacion del sag.
+
+    <string name="xc"> Se recomienda llevar una presion alta</string>
+    <string name="am"> Tendremos que tener un hundimiento entre 20 y 30 por ciento</string>
+    <string name="dh"> En esta disciplina tan radical tendremo como minimo de llevar entre un 25 y 30 %</string>
+    <string name="start">Start </string>
+    <string name="infoapp">Info App </string>
+    <string name="infosag">Info SAG </string>
+</resources>
+

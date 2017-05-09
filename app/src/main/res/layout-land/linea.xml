@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_black_1000">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="0dp"
+            android:max="25"
+            android:progress="50"
+            android:secondaryProgress="2" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btndis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:src="@mipmap/ic_straighten_black_24dp"
+            android:text=""
+            app:backgroundTint="@color/md_yellow_900"
+            fab:fab_colorPressed="@color/md_red_300"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:id="@+id/txtnum"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@color/md_yellow_900"
+            android:ems="10"
+            android:inputType="number"
+            android:text="32"
+            android:textColor="#000"
+            style="@android:style/Animation.Toast"
+            android:layout_marginLeft="50dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:longClickable="true"
+            android:src="@mipmap/ic_add_circle_outline_black_24dp"
+
+            android:visibility="visible"
+            app:backgroundTint="@color/md_yellow_900"
+            fab:fab_colorPressed="@color/md_red_300"
+            android:layout_marginRight="5dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnmenos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:longClickable="false"
+            android:src="@mipmap/ic_remove_circle_outline_black_24dp"
+            android:visibility="visible"
+            app:backgroundTint="@color/md_yellow_900"
+            fab:fab_colorPressed="@color/md_red_300"
+            android:layout_marginLeft="5dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnfijar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            app:backgroundTint="@color/md_yellow_900"
+            fab:fab_colorPressed="@color/md_red_300"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_looks_two_black_24dp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnfijar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_looks_one_black_24dp"
+            app:backgroundTint="@color/md_yellow_900"
+            fab:fab_colorPressed="@color/md_red_300" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_replay_black_24dp"
+            app:backgroundTint="@color/md_yellow_900"
+            fab:fab_colorPressed="@color/md_red_300" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ancho: "
+            android:id="@+id/reco"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginRight="50dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hundimiento :"
+            android:id="@+id/textView20"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff" />
+
+        <EditText
+            style="@android:style/Animation.Toast"
+            android:id="@+id/hundimiento"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@color/md_yellow_900"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp" />
+
+        <org.opencv.android.JavaCameraView
+            android:id="@+id/linea"
+            android:layout_width="476dp"
+            android:layout_height="223dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>
